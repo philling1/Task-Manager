@@ -26,7 +26,6 @@ const TASK_TYPE = {
 
 const Tasks = () => {
   const params = useParams();
-  console.log(params);
 
   const [selected, setSelected] = useState(0);
   const [open, setOpen] = useState(false);
